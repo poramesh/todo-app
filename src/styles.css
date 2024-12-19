@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .todo-app {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .todo-item span {
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  
